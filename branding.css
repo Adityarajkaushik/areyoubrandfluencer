@@ -1,0 +1,129 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  .container {
+    max-width: 85%;
+    margin: 0%;
+    text-align: left;
+    padding-left: 0%;
+    padding-right: 0%;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+  }
+  
+  /* Styles for the brand section */
+  .areyoubrand {
+    background-color: #f5f5f5;
+    padding: 50px 50px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;    
+
+  }
+  
+  .hero2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  
+  
+  .brand {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .Market {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px 45px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  .postbuttontext{
+    color: #f4f6f8;
+    text-decoration-style: solid;
+    font-size:large;
+    text-decoration-line: inherit;
+
+  }
+  
+  .button:hover {
+    background-color: #0062cc;
+  }
+  
+  .text-center {
+    position:relative;
+    width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 ;
+      text-align: right;
+      padding-right: 0%;
+      justify-content: space-between;
+      align-items: right;
+    
+  }
+  
+  .text-center img {
+    max-width: 100%;
+    float: right;
+    margin: 0%;
+    position: fixed;
+    margin-right: 0%;
+   
+  }
+  
+  .text-center a {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    border: 2px solid #f4f6f8;
+    transition: all 0.3s ease;
+  
+  }
+  .text-center a:before,
+  .text-center a:after {
+    position: absolute;
+    content: icon;
+    width: 10px;
+    height: 2px;
+    background-color: #007bff;
+    top: calc(50% - 1px);
+    left: calc(50% - 5px);
+    transition: all 0.3s ease;
+  }
+  
+  .text-center a:hover {
+    background-color: #007bff;
+    transform: scale(1.2);
+  }
+  
+  .text-center a:hover:before {
+    transform: translate(-5px, -1px);
+  }
+  
+  .text-center a:hover:after {
+    transform: translate(5px, -1px);
+  }

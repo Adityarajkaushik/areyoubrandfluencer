@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name"placeholder="Name of Organisation/Influencer/Individual" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email"placeholder="Your email" name="email" required>
+
+      <label  for="phone">Phone</label>
+      <input type="text" name="phone" value=""placeholder="Your phone number" required="required" fdprocessedid="gj6mdi"> 
+      
+      <label class="form-label1" for="type">    You are a</label>
+        <select class="custom-select" name="type" required="required" fdprocessedid="ejflx5">
+        <option value="" selected="" disabled="">Please Select One...</option>
+        <option value="Influencer">Influencer</option>
+        <option value="Manager">Manager</option>
+        <option value="Agent">Agent</option>
+        <option value="Brand">Brand</option>
+        <option value="Agency">Agency</option>
+        <option value="Press/Media">Press/Media</option>
+        <option value="Investor">Investor</option>
+        <option value="Other">Other</option>
+        </select>
+      
+        <label class="form-label" for="reason">Reason for Contact</label>
+        <select class="custom-select" name="reason" required="required" fdprocessedid="you9o5">
+        <option value="" selected="" disabled="">Please Select One...</option>
+        <option value="I want to apply to join">I want to apply to join</option>
+        <option value="Requesting status of application">Requesting status of application</option>
+        <option value="For Brands: InfluencerBox Program">For Brands: InfluencerBox Program</option>
+        <option value="Payment/Billing Questions">Payment/Billing Questions</option>
+        <option value="I want to advertise">I want to advertise</option>
+        <option value="I want my influencers to join">I want my influencers to join</option>
+        <option value="Business Development">Business Development</option>
+        <option value="Partnerships">Partnerships</option>
+        <option value="Technical Issues">Technical Issues</option>
+        <option value="Legal Matters">Legal Matters</option>
+        <option value="Other">Other</option>
+        </select>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" id="submit-btn">Send Message</button>
+    </form>
+    
+    <script src="script.js"></script>
+    
+  </body>
+</html>
